@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/WUElev8/WUElev8/bin/Debug/net6.0
+/WUElev8/.vs/WUElev8/v17
+/WUElev8/WUElev8/obj
