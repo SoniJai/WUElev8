@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace EmployeePerformanceProblem.Controllers
+namespace EmployeePerfromanceProblem.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
