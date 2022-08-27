@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace WUElev8.Controllers
+namespace EmployeePerformanceProblem.Controllers
 {
     [ApiController]
     [Route("[controller]")]
