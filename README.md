@@ -35,9 +35,9 @@ In background, the reminder are added to a collection at a given reminder time.
 5. Run Api : **POST api/TaskReminder** to add new TaskReminder. 
 6. Run Api : **GET api/TaskReminder** to get all the tasks.(There are some existing tasks as well.).
 7. You should be able to see newly added task in response of GET api call.
-8. Now check the command prompt for current running api project.
+8. Now check the console window of current running api project.
 9. You should be able to see that the reminders are being added to queue at the correct time.
-10. You can compare the reminder time of tasks from GET call output to command prompt logs.
+10. You can compare the reminder time of tasks from GET call output to console logs.
 
 For Ex.:
 
@@ -88,7 +88,7 @@ Now if you make **POST TaskReminder api** call for below request :
 }
 ```
 
-Now if you open command prompt of running api project, you will see below logs: 
+Now if you open console logs of running api project, you will see below logs: 
 
 ```
 currentTime: 8/27/2022 4:55:35 PM
