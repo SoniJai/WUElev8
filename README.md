@@ -2,7 +2,7 @@
 
 # Hire-a-thon_Jai Soni
 
-#Problem Statement 1- Employee Performance Problem
+# Problem Statement 1- Employee Performance Problem
 ## Description
 Employee Performance problem statement folder consists solution file for the same.
 
@@ -20,7 +20,7 @@ Need Visual studio and .net6 installed.
 6. Run Api : **api/EmployeePerformance/lowestEmployeeEfficiency** for lowest n employees problem.
 
 
-#Problem Statement 2- Reminder Service Problem
+# Problem Statement 2- Reminder Service Problem
 ## Description
 ReminderServiceProblem folder consists solution file for the same. This solution provides api for to add reminder.
 In background, the reminder are added to a collection at a given reminder time.
