@@ -18,8 +18,9 @@ Need Visual studio and .net6 installed.
 4. Run EmployeePerfromanceProblem.Api Project.
 5. Run Api : **api/EmployeePerformance/teamEffort** for teamEfforts calculation problem. 
 6. Run Api : **api/EmployeePerformance/lowestEmployeeEfficiency** for lowest n employees problem.
-\
-**1. To Get Mean effort spent by various teams on different Projects**: 
+
+
+### 1. To Get Mean effort spent by various teams on different Projects: 
 
 Api Call : GET https://localhost:7226/api/EmployeePerformance/teamEffort
 
@@ -62,7 +63,7 @@ Response:
 ]
 ```
 
-**2.  to Get the 5 Employees with the lowest efficiency**:
+### 2.  to Get the 5 Employees with the lowest efficiency:
 
 API Call: https://localhost:7226/api/EmployeePerformance/lowestEmployeeEfficiency?n=5
 
