@@ -16,8 +16,8 @@ Need Visual studio and .net6 installed.
 2. Open Visual Studio.
 3. Open solution file present at WUElev8\Employee performance problem statement\EmployeePerformanceProblem\EmployeePerformanceProblem.sln.
 4. Run EmployeePerfromanceProblem.Api Project.
-5. Run Api : api/EmployeePerformance/teamEffort for teamEfforts calculation problem. 
-6. Run Api : api/EmployeePerformance/lowestEmployeeEfficiency for lowest n employees problem.
+5. Run Api : **api/EmployeePerformance/teamEffort** for teamEfforts calculation problem. 
+6. Run Api : **api/EmployeePerformance/lowestEmployeeEfficiency** for lowest n employees problem.
 
 
 ## Steps to run Reminder Service Problem solution
