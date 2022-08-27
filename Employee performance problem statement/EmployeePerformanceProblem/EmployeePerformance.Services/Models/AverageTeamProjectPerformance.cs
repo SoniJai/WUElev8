@@ -1,6 +1,6 @@
 ﻿namespace EmployeePerformance.Services
 {
-    public class AverageTeamPerformance
+    public class AverageTeamProjectPerformance
     {
         public string Team { get; set; } = null!;
         public string ProjectName { get; set; } = null!;
