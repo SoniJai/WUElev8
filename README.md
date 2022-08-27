@@ -26,8 +26,8 @@ Need Visual studio and .net6 installed.
 2. Open Visual Studio.
 3. Open solution file present at WUElev8\ReminderServiceProblem\ReminderServiceProblem.sln
 4. Run ReminderServiceProblem.Api Project.
-5. Run Api : POST api/TaskReminder to add new TaskReminder. 
-6. Run Api : GET api/TaskReminder to get all the tasks.(There are some existing tasks as well.).
+5. Run Api : **POST api/TaskReminder** to add new TaskReminder. 
+6. Run Api : **GET api/TaskReminder** to get all the tasks.(There are some existing tasks as well.).
 7. You should be able to see newly added task in response of GET api call.
 8. Now check the command prompt for current running api project.
 9. You should be able to see that the reminders are being added to queue at the correct time.
