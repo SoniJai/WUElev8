@@ -87,7 +87,7 @@ currentTime: 8/27/2022 4:55:35 PM
 Added Task:A, time:8/27/2022 4:55:35 PM
 tasks added. Total tasks: 1
 
-
+```
 New tasks:1 found. Adding 1 to queue
 
 
@@ -171,6 +171,6 @@ tasks added. Total tasks: 8
 currentTime: 8/27/2022 4:57:35 PM
 Added Task:Hakuna, time:8/27/2022 4:57:35 PM
 tasks added. Total tasks: 9
-
+```
 
 which shows that at given reminder time, items are being added to collecton.
