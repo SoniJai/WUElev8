@@ -37,6 +37,7 @@ For Ex.:
 
 GET TaskReminder returns: 
 
+```json
 [
 	{
 		"name": "A",
@@ -71,12 +72,15 @@ GET TaskReminder returns:
 		"reminderTime": "2022-08-27T16:57:30.4884718+05:30"
 	}
 ]
+```
 
 Now if you make POST TaskReminder call for below request : 
+```json
 {
     "name": "Hakuna",
     "reminderTime": "2022-08-27T16:57:35"
 }
+```
 
 Now if you open command prompt of running api project, you will see below logs: 
 currentTime: 8/27/2022 4:55:35 PM
