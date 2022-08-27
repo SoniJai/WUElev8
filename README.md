@@ -18,6 +18,80 @@ Need Visual studio and .net6 installed.
 4. Run EmployeePerfromanceProblem.Api Project.
 5. Run Api : **api/EmployeePerformance/teamEffort** for teamEfforts calculation problem. 
 6. Run Api : **api/EmployeePerformance/lowestEmployeeEfficiency** for lowest n employees problem.
+\
+**1. To Get Mean effort spent by various teams on different Projects**: 
+
+Api Call : GET https://localhost:7226/api/EmployeePerformance/teamEffort
+
+Response: 
+```json
+[
+	{
+		"team": "Design",
+		"projects": [
+			{
+				"projectName": "AAA",
+				"hours": 3.9722222222222225
+			},
+			{
+				"projectName": "CCC",
+				"hours": 4
+			},
+			{
+				"projectName": "DDD",
+				"hours": 2.621794871794872
+			}...
+		]
+	},
+	{
+		"team": "Dev",
+		"projects": [
+			{
+				"projectName": "BBB",
+				"hours": 5.869565217391305
+			},
+			{
+				"projectName": "CCC",
+				"hours": 3.5517241379310349
+			},
+			{
+				"projectName": "DDD",
+				"hours": 3.9606060606060606
+			}...
+	}...
+]
+```
+
+**2.  to Get the 5 Employees with the lowest efficiency**:
+
+API Call: https://localhost:7226/api/EmployeePerformance/lowestEmployeeEfficiency?n=5
+
+Response:
+```json
+[
+  {
+    "employeeName": "0",
+    "hours": 0.5
+  },
+  {
+    "employeeName": "Gerard Benedict",
+    "hours": 16.520000000000003
+  },
+  {
+    "employeeName": "rajeshwaran",
+    "hours": 23.5
+  },
+  {
+    "employeeName": "shalini",
+    "hours": 40.790000000000006
+  },
+  {
+    "employeeName": "akarthick",
+    "hours": 44.75
+  }
+]
+```
+
 
 
 # Problem Statement 2- Reminder Service Problem
