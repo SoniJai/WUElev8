@@ -35,7 +35,7 @@ Need Visual studio and .net6 installed.
 
 For Ex.:
 
-GET TaskReminder returns: 
+**GET TaskReminder api** returns: 
 
 ```json
 [
@@ -74,7 +74,7 @@ GET TaskReminder returns:
 ]
 ```
 
-Now if you make **POST TaskReminder** call for below request : 
+Now if you make **POST TaskReminder api** call for below request : 
 ```json
 {
     "name": "Hakuna",
