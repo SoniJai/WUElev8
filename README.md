@@ -15,7 +15,7 @@ Need Visual studio and .net6 installed.
 1. Clone Repo SoniJai/WUElev8
 2. Open Visual Studio.
 3. Open solution file present at WUElev8\Employee performance problem statement\EmployeePerformanceProblem\EmployeePerformanceProblem.sln.
-4. Run EmployeePerfromanceProblem.Api Project.
+4. Run **EmployeePerfromanceProblem.Api Project**.
 5. Run Api : **api/EmployeePerformance/teamEffort** for teamEfforts calculation problem. 
 6. Run Api : **api/EmployeePerformance/lowestEmployeeEfficiency** for lowest n employees problem.
 
@@ -63,7 +63,7 @@ Response:
 ]
 ```
 
-### 2.  to Get the 5 Employees with the lowest efficiency:
+### 2.  To Get the 5 Employees with the lowest efficiency:
 
 API Call: https://localhost:7226/api/EmployeePerformance/lowestEmployeeEfficiency?n=5
 
@@ -99,6 +99,7 @@ Response:
 ## Description
 ReminderServiceProblem folder consists solution file for the same. This solution provides api for to add reminder.
 In background, the reminder are added to a collection at a given reminder time.
+This solution consists an API project to add/get reminders and WorkerService project which continuoulsy polls the reminder tasks and add them to queue at correct time.
 
 
 ## Steps to run Reminder Service Problem solution
@@ -106,7 +107,7 @@ In background, the reminder are added to a collection at a given reminder time.
 1. Clone Repo SoniJai/WUElev8
 2. Open Visual Studio.
 3. Open solution file present at WUElev8\ReminderServiceProblem\ReminderServiceProblem.sln
-4. Run ReminderServiceProblem.Api Project.
+4. Run **ReminderServiceProblem.Api Project**.
 5. Run Api : **POST api/TaskReminder** to add new TaskReminder. 
 6. Run Api : **GET api/TaskReminder** to get all the tasks.(There are some existing tasks as well.).
 7. You should be able to see newly added task in response of GET api call.
