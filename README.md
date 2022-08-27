@@ -74,7 +74,7 @@ GET TaskReminder returns:
 ]
 ```
 
-Now if you make POST TaskReminder call for below request : 
+Now if you make **POST TaskReminder** call for below request : 
 ```json
 {
     "name": "Hakuna",
@@ -83,11 +83,13 @@ Now if you make POST TaskReminder call for below request :
 ```
 
 Now if you open command prompt of running api project, you will see below logs: 
+
+```
 currentTime: 8/27/2022 4:55:35 PM
 Added Task:A, time:8/27/2022 4:55:35 PM
 tasks added. Total tasks: 1
 
-```
+
 New tasks:1 found. Adding 1 to queue
 
 
