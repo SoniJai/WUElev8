@@ -4,14 +4,14 @@
 Problem Statements
 Problem Statement 1- Employee Performance Problem
 # Description
-<Employee Performance problem statement folder consists solution file for the same.>
+Employee Performance problem statement folder consists solution file for the same.
 
 # Prerequisite
-<Need Visual studio and .net6 installed>
+Need Visual studio and .net6 installed.
 
 # How to run
-<Steps to run Employee Performance Problem solution>
-Steps
+Steps to run Employee Performance Problem solution
+
 1. Clone Repo SoniJai/WUElev8
 2. Open Visual Studio.
 3. Open solution file present at WUElev8\Employee performance problem statement\EmployeePerformanceProblem\EmployeePerformanceProblem.sln.
