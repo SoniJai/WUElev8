@@ -38,38 +38,38 @@ For Ex.:
 GET TaskReminder returns: 
 
 [
-  {
-    "name": "A",
-    "reminderTime": "2022-08-27T16:55:35.4843825+05:30"
-  },
-  {
-    "name": "B",
-    "reminderTime": "2022-08-27T16:55:40.4856986+05:30"
-  },
-  {
-    "name": "C",
-    "reminderTime": "2022-08-27T16:55:45.4857026+05:30"
-  },
-  {
-    "name": "D",
-    "reminderTime": "2022-08-27T16:55:50.4857028+05:30"
-  },
-  {
-    "name": "E",
-    "reminderTime": "2022-08-27T16:55:55.4857029+05:30"
-  },
-  {
-    "name": "F",
-    "reminderTime": "2022-08-27T16:56:00.485704+05:30"
-  },
-  {
-    "name": "G",
-    "reminderTime": "2022-08-27T16:56:30.4857042+05:30"
-  },
-  {
-    "name": "H",
-    "reminderTime": "2022-08-27T16:57:30.4884718+05:30"
-  }
+	{
+		"name": "A",
+		"reminderTime": "2022-08-27T16:55:35.4843825+05:30"
+	},
+	{
+		"name": "B",
+		"reminderTime": "2022-08-27T16:55:40.4856986+05:30"
+	},
+	{
+		"name": "C",
+		"reminderTime": "2022-08-27T16:55:45.4857026+05:30"
+	},
+	{
+		"name": "D",
+		"reminderTime": "2022-08-27T16:55:50.4857028+05:30"
+	},
+	{
+		"name": "E",
+		"reminderTime": "2022-08-27T16:55:55.4857029+05:30"
+	},
+	{
+		"name": "F",
+		"reminderTime": "2022-08-27T16:56:00.485704+05:30"
+	},
+	{
+		"name": "G",
+		"reminderTime": "2022-08-27T16:56:30.4857042+05:30"
+	},
+	{
+		"name": "H",
+		"reminderTime": "2022-08-27T16:57:30.4884718+05:30"
+	}
 ]
 
 Now if you make POST TaskReminder call for below request : 
