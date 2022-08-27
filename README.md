@@ -10,7 +10,7 @@ Employee Performance problem statement folder consists solution file for the sam
 Need Visual studio and .net6 installed.
 
 # How to run
-Steps to run Employee Performance Problem solution
+## Steps to run Employee Performance Problem solution
 
 1. Clone Repo SoniJai/WUElev8
 2. Open Visual Studio.
